@@ -1,0 +1,2 @@
+{:deps
+ {com.datomic/client-cloud {:mvn/version "1.0.131"}}}
