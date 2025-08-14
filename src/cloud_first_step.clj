@@ -19,10 +19,10 @@
 
 
 (def schema-tx-data
-  [{:db/ident       :user/name                              ; identifica o atributo
-    :db/valueType   :db.type/string                         ; tipo de valor
-    :db/cardinality :db.cardinality/one                     ; qual a cadinalidade dele
-    :db/doc         "name"}                                 ; a descrição dele
+  [{:db/ident       :user/name                              ; identifica o atributo / identifies the attribute
+    :db/valueType   :db.type/string                         ; tipo do valor / value type
+    :db/cardinality :db.cardinality/one                     ; qual a cardinalidade / what is its cardinality
+    :db/doc         "name"}                                 ; a descrição dele / his description
    {:db/ident       :user/year
     :db/valueType   :db.type/long
     :db/cardinality :db.cardinality/one
